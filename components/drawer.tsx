@@ -1,9 +1,6 @@
 import Image from "next/image";
 import { Tabs } from "@/components/tabs";
 import { Title } from "@/components/title";
-import { Toggle } from "@/components/toggle";
-import { Input } from "@/components/input";
-import { Button } from "@/components/button";
 
 type Props = {
   open: boolean;
@@ -29,9 +26,6 @@ export const Drawer = ({ open, setOpen }: Props) => {
         </button>
         <Title title="Title" />
         <Tabs />
-        <Toggle />
-        <Input />
-        <Button text="submit" />
       </div>
     </div>
   );

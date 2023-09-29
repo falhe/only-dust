@@ -17,6 +17,7 @@ const config: Config = {
         "text-base": "#F3F0EE",
         "text-black": "#0E0D2E",
         "base-drawer": "#181818",
+        tab: "#7A7877",
         stroke: "#808080",
       },
       fontWeight: {
